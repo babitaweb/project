@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-color: #fff9f3;
+    color: #022e71;
+    font-family: BricolageGrotesque-Regular;
+}
+header{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0 2%;
+    height: 70px;
+    width: 100%;
+    box-shadow: 2px 2px 5px #dce3df04;
+    position: fixed;
+    background-color: #fff1e2;
+    
+
+    
+
+    
+    
+    
+
+    
+    
+}
+.logo{
+    display: flex;
+    align-items: center ;
+}
+
+
+nav{
+    width: 70%;
+    height: inherit;
+}
+nav ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit
+    
+}
+nav ul li{
+list-style: none;
+
+
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    
+    padding: 0% 20px;
+    font-size: 20px;
+}
+/* .call-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+}
+.call-button a {
+    
+    color: black;
+    padding: 10px 30px;
+    background-color:wheat;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+} */
+ 
+
+.indara h2{
+    text-align: center;
+    font-size: 30px;
+    color:rgb(222, 213, 235);
+    font-weight: 400;
+    font-size: 30px;
+    margin: 15px 0 30px;
+    line-height: 1.5;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+
+    
+
+    
+    
+    
+    
+}
+.icon{
+    margin: 2 4px 5 2;
+    position: absolute;
+    right: 40px; 
+    padding: 0 2.083vw;
+
+    
+    
+    
+}
+
+.icon i{
+    margin: 6px 10px;
+}
+#Products  img{
+    /* width: 24%;
+    height: 400px; */
+    
+    width: 22.292vw;
+    height: 22.292vw;
+
+    
+}
+#Products .menu{
+    display: flex;
+    margin: 40px;
+    padding: 5px;
+
+
+}
+#indra1{
+    width: 100%;
+    height:200px
+}
+#indra1 p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 95px;
+
+}
+.buttons{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.buttons a{
+    
+    padding: 10px 30px;
+    background-color:white;
+    text-decoration: none;
+    border: 1px solid black;
+     font-size: 20px
+     
+
+    
+
+
+}
+.buttons a:hover{
+    background-color: rgb(212, 233, 246);
+}
+#indariya{
+    width: 100%;
+    height: 200px;
+}
+#indariya .menu2 p{
+    color: #262626;
+    font-family: BegumSans-Regular;
+    font-size: clamp(2rem, 1.6667rem + 1.4815vw, 3rem);
+    font-weight: 400;
+    line-height: 140%;
+    text-align: center;
+}
+span{
+    
+    font-family: BrittanySignature !important;
+}
+
+#indariya  .logic{
+    display: flex;
+    margin: 40px;
+    padding: 5px;
+    position: fixed;
+}
+#indariya1{
+    width: 100%;
+    height: 500px; 
+    background:rgba(3,45,95,255);
+    
+}
+#indariya1  .para p{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10% 15% 0 15%;
+
+}
+/* #indariya1  p .para1{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 10% 20px;
+
+} */
+
+#indariya1 .logcs{
+    text-align: center;
+    margin-top: 5%;
+    color: #fff9f3;
+    
+    
+
+}
+.logcs a{
+    
+    padding: 15px 35px;
+    background-color:rgba(3,45,95,255);
+    text-decoration: none;
+    border: 1px solid black;
+    font-size: 20px;
+    color: white;
+    
+}
+.logcs a:hover{
+    background-color: skyblue;
+    color: #262626;
+}
+/* #image {
+
+    width:100%;
+    height:800px;
+    position: relative;
+    
+} */
+#image{
+    display: flex;
+    justify-content: center;
+    width:80%;
+    height: 500px;
+    position: relative;
+    background-color: #e0ba95;
+    margin:8%;
+
+    
+}
+#image .parent-contant {
+    
+
+    display: flex;
+    /* max-width: 1240px; */
+    /* margin-top: auto; */
+    /* position: relative; */
+    width: 50%;
+    
+    
+    
+
+    
+
+}
+
+
+#image .child-container1{
+
+width: 250px;
+padding-top: 20px;
+padding-right: 10%;
+
+
+}
+#image .child-container1 h2{
+    font-size: 40px;
+    line-height: 1.1em;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    margin-top: 40px;
+
+
+}
+#image .child-container1 p{
+    color:black;
+    font-weight: 300;
+    font-size: 19px;
+    margin: 15px 0 30px;
+    line-height: 1.2;
+
+    
+}
+#image .button3 a{
+    text-decoration: none;
+    padding: 10px 10px;
+    background-color:blue;
+    font-size: 15px;
+    color:white;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-right: 10px;
+    display: inline-block;
+
+
+}
+
+#image .child-container2{
+
+    background-color: #f5f5f5;
+    padding: 20px;
+margin: 60px;
+
+
+}
+ 
+#image .child-container .child-container2 img{
+    width:450px;
+
+}
+#images {
+    width: 100%;
+    height: 200px;
+
+}
+#images .parent-container3 h2{
+    font-size: 30px;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    text-align: center;
+    
+    
+}
+#images .parent-container3 p{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+.parent-container3 span{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #e0ba95;
+
+}
+#review .parent-container-review{
+    width:100%;
+    height:400px;
+    display: flex;
+    justify-content:space-around;
+
+}
+
+/* 
+#review .child-container-review ul {
+    display: flex ;
+} */
+#review .parent-container-review ul li{
+    list-style-type: none;
+    padding-top: 10px;
+
+}
+#review .parent-container-review ul li a{
+    text-decoration: none;
+    color: #262626;
+}
+
+#review .child-review i{
+
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 10px;
+}
+#review .child-review i:hover{
+    background-color: #022e71;
+    color: #f5f5f5;
+
+}
+/* #review .child-review h4{
+    margin-left: 10px;
+
+} */
+
